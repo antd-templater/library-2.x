@@ -19,8 +19,6 @@ import SSearch from './library/Search.vue'
 
 /**
  * @description 表单组件库
- * @lastModifiedBy
- * @lastModifiedDate
  */
 export default {
   SRate,

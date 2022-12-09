@@ -1,7 +1,5 @@
 /**
  * @description 图标库映射
- * @lastModifiedBy
- * @lastModifiedDate
  */
 export default [
   {

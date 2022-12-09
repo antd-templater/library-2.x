@@ -2,8 +2,6 @@ import Util from '@/util/base'
 
 /**
  * @description 校验器
- * @lastModifiedBy
- * @lastModifiedDate
  */
 export const validator = {
   number (options) {
@@ -74,8 +72,6 @@ export const validator = {
 
 /**
  * @description 扩展器
- * @lastModifiedBy
- * @lastModifiedDate
  */
 export const extender = {
   groups (groups = [], fn = null, options = {}) {

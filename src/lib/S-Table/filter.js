@@ -1,7 +1,5 @@
 /**
  * @description 下拉列选项
- * @lastModifiedBy
- * @lastModifiedDate
  */
 export default {
   name: 'STableFilter',

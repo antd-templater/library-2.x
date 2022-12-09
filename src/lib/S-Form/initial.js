@@ -2,8 +2,6 @@ import moment from 'moment'
 
 /**
  * @description 组件默认配置
- * @lastModifiedBy
- * @lastModifiedDate
  */
 export default {
   ARate: {

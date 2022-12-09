@@ -2,8 +2,6 @@ import moment from 'moment'
 
 /**
  * @description 补齐数值精度
- * @lastModifiedBy
- * @lastModifiedDate
  *
  * @param {String | Number} num
  * @param {String | Number} keep?
@@ -19,8 +17,6 @@ export const takePadEnd = (num, keep = 0) => {
 
 /**
  * @description 处理数值精度
- * @lastModifiedBy
- * @lastModifiedDate
  *
  * @param {String | Number} num
  * @param {String | Number} digit?
@@ -53,8 +49,6 @@ export const takeFixed = (num, digit = 0) => {
 
 /**
  * @description 取出节点数据
- * @lastModifiedBy
- * @lastModifiedDate
  *
  * @param {Array} tree
  * @param {String | Number} key
@@ -106,8 +100,6 @@ export const takeTreeByKey = (
 
 /**
  * @description 取出节点文本
- * @lastModifiedBy
- * @lastModifiedDate
  *
  * @param {Array} tree
  * @param {String | Number} key
@@ -153,8 +145,6 @@ export const takeLabelByKey = (
 
 /**
  * @description 根据格式转换 日期
- * @lastModifiedBy
- * @lastModifiedDate
  *
  * @param {Date | String | Number} date
  * @param {String} format?
@@ -171,8 +161,6 @@ export const takeTimeToDate = (date, format) => {
 
 /**
  * @description 根据格式转换 时间
- * @lastModifiedBy
- * @lastModifiedDate
  *
  * @param {Date | String | Number} date
  * @param {String} format?
