@@ -22,6 +22,10 @@
       "require": "./dist/lib/S-Form/helper.cjs"
     }
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/antd-templater/antd-template-lib2.x.git"
