@@ -22,16 +22,16 @@
       "require": "./dist/lib/S-Form/helper.cjs"
     }
   },
-  "publishConfig": {
-    "access": "public",
-    "registry": "https://registry.npmjs.org/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/antd-templater/antd-template-lib2.x.git"
   },
   "bugs": {
     "url": "https://github.com/antd-templater/antd-template-lib2.x/issues"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
     "build": "shx rm -rf dist && rollup -c",
@@ -66,7 +66,7 @@
     "less": "^3.0.4",
     "less-loader": "^5.0.0",
     "postcss": "^8.4.19",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.1",
     "rollup": "^2.79.1",
     "rollup-plugin-polyfill-node": "^0.10.2",
     "rollup-plugin-postcss": "^4.0.2",
