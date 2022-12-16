@@ -3,10 +3,11 @@
   "description": "基于 Vue2.x Ant Design Vue 对Tree、Table、Form等组件二次封装",
   "homepage": "https://github.com/antd-templater/antd-template-lib2.x",
   "author": "lin pengteng <china.linpengteng@gmail.com>",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "keywords": [
     "front-end",
-    "ant design vue"
+    "vue-components",
+    "ant-design-vue"
   ],
   "files": [
     "dist"
@@ -60,7 +61,7 @@
     "@vue/babel-preset-jsx": "^1.4.0",
     "@vue/eslint-config-standard": "^6.0.0",
     "babel-plugin-import": "^1.13.5",
-    "cz-message-helper": "^1.1.7",
+    "cz-message-helper": "^1.1.8",
     "eslint": "^8.24.0",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.26.0",
