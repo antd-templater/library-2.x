@@ -1641,10 +1641,10 @@ csstype@^3.1.0:
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-3.1.1.tgz#841b532c45c758ee546a11d5bd7b7b473c8c30b9"
   integrity sha512-DJR/VvkAvSZW9bTouZue2sSxDwdTN92uHjqeKVm+0dAqdfNykRzQ95tay8aXMBAAPpUiq4Qcug2L7neoRh2Egw==
 
-cz-message-helper@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/cz-message-helper/-/cz-message-helper-1.1.1.tgz#baa92c4c3da4aa9552ad198c54b1314caf7e0e54"
-  integrity sha512-vt2AGsWnOmy8wgPKDYJMcRH/Dy5ur5xp3xf8a8EZX06T2w/mBn9PtaTjTTpZoJh27QWYB2Eio0cFOIiFwuPOCg==
+cz-message-helper@^1.1.7:
+  version "1.1.7"
+  resolved "https://registry.yarnpkg.com/cz-message-helper/-/cz-message-helper-1.1.7.tgz#d934d70b6a2c146d677b1c44bf123cbdf6ab6c3b"
+  integrity sha512-Pcj94+zpGs7iDZAWjmTmo2Q2IukYNEm5nqS5d/lSbf8L+P9so9YuErLz5tozWZ9Q/sqMsH9d988SBSFU/nGuTw==
   dependencies:
     find-config "^1.0.0"
     inquirer "^9.1.4"
@@ -4063,10 +4063,19 @@ postcss@^7.0.36:
     picocolors "^0.2.1"
     source-map "^0.6.1"
 
-postcss@^8.4.14, postcss@^8.4.19:
+postcss@^8.4.14:
   version "8.4.19"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.19.tgz#61178e2add236b17351897c8bcc0b4c8ecab56fc"
   integrity sha512-h+pbPsyhlYj6N2ozBmHhHrs9DzGmbaarbLvWipMRO7RLS+v4onj26MPFXA5OBYFxyqYhUJK456SwDcY9H2/zsA==
+  dependencies:
+    nanoid "^3.3.4"
+    picocolors "^1.0.0"
+    source-map-js "^1.0.2"
+
+postcss@^8.4.20:
+  version "8.4.20"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.20.tgz#64c52f509644cecad8567e949f4081d98349dc56"
+  integrity sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==
   dependencies:
     nanoid "^3.3.4"
     picocolors "^1.0.0"
