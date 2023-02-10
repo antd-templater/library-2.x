@@ -1,4 +1,3 @@
-
 import Vue from 'vue'
 import STree from './lib/S-Tree/index.vue'
 import SForm from './lib/S-Form/index.vue'
@@ -11,6 +10,8 @@ import SEditCellDatePicker from './lib/S-EditCell/DatePicker.vue'
 import SEditCellTreeSelect from './lib/S-EditCell/TreeSelect.vue'
 import STableFilter from './lib/S-Table/filter.js'
 import STable from './lib/S-Table/index.js'
+
+import './components'
 
 Vue.component('STree', STree)
 Vue.component('SForm', SForm)
