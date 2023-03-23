@@ -500,9 +500,7 @@ export default {
           tempUpNode = upHandleNode
 
           tempUpNodes = upHandleNodes.filter(node => node.level === upHandleNode.level)
-          upHandleNodes = upHandleNodes.filter(
-            node => !tempUpNodes.some(temp => temp.node === node.level)
-          )
+          upHandleNodes = upHandleNodes.filter(node => !tempUpNodes.some(temp => temp.level === node.level))
 
           while (tempUpNode) {
             if (tempUpNode.parentNode) {
