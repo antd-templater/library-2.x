@@ -3,7 +3,7 @@
   "description": "基于 Vue2.x Ant Design Vue 对Tree、Table、Form等组件二次封装",
   "homepage": "https://github.com/antd-templater/library-2.x",
   "author": "lin pengteng <china.linpengteng@gmail.com>",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "keywords": [
     "front-end",
     "vue-components",
@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antd-templater/antd-template-lib2.x.git"
+    "url": "git+https://github.com/antd-templater/library-2.x.git"
   },
   "bugs": {
-    "url": "https://github.com/antd-templater/antd-template-lib2.x/issues"
+    "url": "https://github.com/antd-templater/library-2.x/issues"
   },
   "publishConfig": {
     "access": "public",
